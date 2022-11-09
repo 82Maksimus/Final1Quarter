@@ -31,7 +31,7 @@ string[] FindElem(string[] OriginArr, int n)
     return result;
 }
 
-string[] input = GetElems();
-string[] output = FindElem(input, LenElem);
+string[] inputArr = GetElems();
+string[] outputArr = FindElem(inputArr, LenElem);
 
-Console.WriteLine($"{string.Join(", ", input)} -> {string.Join(", ", output)}");
+Console.WriteLine($"{string.Join(", ", inputArr)} -> {string.Join(", ", outputArr)}");
